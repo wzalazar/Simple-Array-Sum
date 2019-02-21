@@ -1,6 +1,6 @@
 const { simpleArraySum } = require('./index')
 
-describe('simpleArraySum()', async assert => {
+describe('simpleArraySum()', () => {
   test('Given no arguments', () => {
     const actual = simpleArraySum()
     const expected = 0
